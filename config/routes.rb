@@ -12,6 +12,6 @@ Rails.application.routes.draw do
   get("/wizardmultiply", { :controller => "multiplication", :action => "multiply_these" })
 
   get("/divide", { :controller => "division", :action => "show_division_form" })
-  get("/wizard_div", { :controller => "division", :action => "divide_these" })
+  get("/divresult", { :controller => "division", :action => "divide_these" })
 
 end
